@@ -1,0 +1,40 @@
+.image {
+    width: 200px;
+    height: 250px;
+    object-position: center;
+    object-fit: cover;
+    margin-top: 5px;
+}
+
+.card {
+    width: 250px;
+    height: 430px;
+    box-shadow: 1px 4px 3px lightgrey;
+    border-radius: 10px;
+    margin:15px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 1px 4px 3px rgb(97, 96, 96);
+    transition: all 1s;
+}
+
+.detail-button {
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(67, 67, 67);
+    color: #fff;
+}
+
+.detail-button:hover {
+    cursor: pointer;
+    background-color: rgb(212, 164, 101);
+    transition: all 0.5s;
+}
